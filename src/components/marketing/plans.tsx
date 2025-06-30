@@ -30,7 +30,7 @@ const Plan: React.FC<PlanProps> = ({
   >
     {index === 1 && (
       <div className="absolute inset-x-0 mx-auto -mt-4 text-center">
-        <div className="inline-flex items-center rounded-full bg-fuchsia-700 px-3 py-1.5 text-xs font-semibold text-white shadow-sm shadow-slate-950/5">
+        <div className="inline-flex items-center rounded-full bg-blue-700 px-3 py-1.5 text-xs font-semibold text-white shadow-sm shadow-slate-950/5">
           Most Popular
         </div>
       </div>
@@ -63,43 +63,48 @@ const Plan: React.FC<PlanProps> = ({
 export default function PlansMarketing() {
   const plans = [
     {
-      name: 'Basic',
-      description: 'A basic plan for individuals.',
-      price: '$9.99',
+      name: 'Education',
+      description: 'Perfect for schools, colleges, and universities.',
+      price: '₹50K - ₹2L',
       features: [
-        '5 products',
-        'Up to 1,000 subscribers',
-        'Basic analytics',
-        'Free updates: 6 months',
-        '36-hour support response time',
+        'Unlimited document uploads',
+        '12+ Indian language support',
+        'AI-powered Q&A interface',
+        'Source citations',
+        'Student access management',
+        'Basic analytics & reporting',
+        'Email support',
       ],
     },
     {
-      name: 'Standard',
-      description: 'A standard plan for small teams.',
-      price: '$19.99',
+      name: 'Professional',
+      description: 'Ideal for law firms, healthcare, and engineering firms.',
+      price: '₹1K - ₹5K/user',
       features: [
-        '15 products',
-        'Up to 100,000 subscribers',
-        'Advanced analytics',
-        'Free updates: 12 months',
-        '48-hour support response time',
-        '10 Support Tickets',
+        'All Education features',
+        'Advanced document processing',
+        'Cross-document synthesis',
+        'Custom knowledge base',
+        'API access',
+        'Priority support',
+        'Training & implementation',
+        'Dedicated account manager',
       ],
       highlighted: true,
     },
     {
-      name: 'Premium',
-      description: 'A premium plan for large teams.',
-      price: '$49.99',
+      name: 'Government',
+      description: 'Enterprise solution for ministries and departments.',
+      price: '₹5L - ₹20L',
       features: [
-        '25 products',
-        'Unlimited subscribers',
-        'Advanced analytics',
-        'Free updates: 12 months',
-        '24-hour support response time',
-        '25 Support Tickets',
-        'Priority Support',
+        'All Professional features',
+        'Custom AI model training',
+        'On-premise deployment option',
+        'Advanced security compliance',
+        '24/7 dedicated support',
+        'Custom integrations',
+        'Comprehensive training',
+        'SLA guarantees',
       ],
     },
   ]

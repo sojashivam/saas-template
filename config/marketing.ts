@@ -7,20 +7,16 @@ export const marketingConfig: MarketingConfig = {
       href: '/',
     },
     {
-      title: 'Pre Sale',
-      href: '/pre-sale',
-    },
-    {
-      title: 'Blocks',
-      href: '/blocks',
+      title: 'Features',
+      href: '/#features',
     },
     {
       title: 'Pricing',
       href: '/pricing',
     },
     {
-      title: 'Blog',
-      href: '/blog',
+      title: 'Use Cases',
+      href: '/use-cases',
     },
     {
       title: 'Documentation',
@@ -37,41 +33,50 @@ export const marketingConfig: MarketingConfig = {
       href: '/',
     },
     {
-      title: 'Pre Sale',
-      href: '/pre-sale',
-    },
-    {
-      title: 'Blocks',
-      href: '/blocks',
+      title: 'Features',
+      href: '/#features',
     },
     {
       title: 'Pricing',
       href: '/pricing',
     },
     {
-      title: 'Blog',
-      href: '/blog',
+      title: 'Use Cases',
+      href: '/use-cases',
+      subMenu: [
+        {
+          title: 'Government',
+          href: '/use-cases/government',
+        },
+        {
+          title: 'Education',
+          href: '/use-cases/education',
+        },
+        {
+          title: 'Professional Services',
+          href: '/use-cases/professional',
+        },
+      ],
     },
     {
       title: 'Documentation',
       href: '/docs',
       subMenu: [
         {
-          title: 'Introduction',
+          title: 'Getting Started',
           href: '/docs',
         },
         {
-          title: 'Contentlayer',
-          href: '/docs/in-progress',
-          disabled: true,
+          title: 'API Reference',
+          href: '/docs/api',
         },
         {
-          title: 'Components',
-          href: '/docs/documentation/components',
+          title: 'Integration Guide',
+          href: '/docs/integration',
         },
         {
-          title: 'Code Blocks',
-          href: '/docs/documentation/code-blocks',
+          title: 'Best Practices',
+          href: '/docs/best-practices',
         },
       ],
     },
@@ -83,9 +88,8 @@ export const marketingConfig: MarketingConfig = {
   footer: {
     links: [
       {
-        href: 'https://bit.ly/48LTNin',
-        name: 'Public Roadmap',
-        target: '_blank',
+        href: '/pricing',
+        name: 'Pricing',
       },
       {
         href: '/legal/privacy-policy',

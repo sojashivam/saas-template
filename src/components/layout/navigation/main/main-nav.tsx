@@ -7,6 +7,7 @@ import { siteConfig } from '@/config/site'
 
 import { cn } from '@/lib/utils'
 
+import { ModeToggle } from '@/components/layout/mode-toggle'
 import { MobileNav } from '@/components/layout/navigation/main/mobile-nav'
 import { Icons } from '@/components/shared/icons'
 import IconLogo from '@/components/shared/logo-icon'
@@ -51,11 +52,11 @@ export function MainNav({ items, children }: MainNavProps) {
     (href !== '/' && currentPathname.startsWith(href))
 
   return (
-    <div className="flex gap-6 md:gap-10">
+    <div className="flex items-center gap-6 md:gap-10">
       <Link href="/" className="hidden items-center space-x-2 md:flex">
-        <IconLogo />
-        <span className="hidden font-urban text-xl font-bold sm:inline-block">
-          {siteConfig.name}
+        <IconLogo className="mr-0 h-10 w-10" />
+        <span className="hidden text-balance font-urban text-2xl font-extrabold tracking-tight sm:inline-block">
+          {}
         </span>
       </Link>
       {items?.length ? (
@@ -78,6 +79,7 @@ export function MainNav({ items, children }: MainNavProps) {
           ))}
         </nav>
       ) : null}
+      <ModeToggle />
       <button
         className="flex items-center space-x-2 md:hidden"
         onClick={toggleMobileMenu}

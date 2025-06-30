@@ -8,7 +8,6 @@ import CtaSocialMedia from '@/components/marketing/cta-social-media'
 import CtaSubscribe from '@/components/marketing/cta-subscribe'
 import FAQ from '@/components/marketing/faq'
 import Features from '@/components/marketing/features'
-import LatestFromBlog from '@/components/marketing/lastest-from-blog'
 import PlansMarketing from '@/components/marketing/plans'
 import Powered from '@/components/marketing/powered'
 import TestimonialCards from '@/components/marketing/testimonials-cards'
@@ -23,7 +22,7 @@ export default async function IndexPage() {
       >
         <div className="container mx-auto">
           <h2 className="mb-6 text-center text-sm font-semibold uppercase">
-            Trusted by
+            Trusted by Leading Institutions
           </h2>
 
           <div className="mx-auto flex w-full flex-wrap items-center justify-center gap-10 gap-y-8 lg:max-w-6xl lg:gap-14">
@@ -35,15 +34,13 @@ export default async function IndexPage() {
       <BentoGrid className="mb-36" />
       <section className="mb-36">
         <BlockTitle.Wrapper className="mb-36">
-          <BlockTitle.Header elementType="h1">
-            Card Pricing table
-          </BlockTitle.Header>
+          <BlockTitle.Header elementType="h1">Pricing Plans</BlockTitle.Header>
           <BlockTitle.Title elementType="h2">
-            One card for all your needs
+            Choose the right plan for your organization
           </BlockTitle.Title>
           <BlockTitle.Description>
-            Pariatur laborum dolor ea commodo sit aute aliquip qui et cillum
-            excepteur.
+            From educational institutions to government departments, we have
+            solutions tailored for every sector.
           </BlockTitle.Description>
           <BlockTitle.Background />
         </BlockTitle.Wrapper>
@@ -51,16 +48,17 @@ export default async function IndexPage() {
       </section>
       <section className="mb-36">
         <BlockTitle.Wrapper className="mb-20">
-          <BlockTitle.Header elementType="h1">Testimonial</BlockTitle.Header>
+          <BlockTitle.Header elementType="h1">
+            Success Stories
+          </BlockTitle.Header>
           <BlockTitle.Title elementType="h2">
-            See what our customers are saying
+            See how organizations are transforming their document workflows
           </BlockTitle.Title>
           <BlockTitle.Background />
         </BlockTitle.Wrapper>
         <TestimonialCards testimonials={testimonialsData} />
       </section>
       <Powered />
-      <LatestFromBlog />
       <CtaSocialMedia />
       <section className="mx-auto flex w-full flex-col px-6 py-10 md:w-10/12 md:py-40 lg:max-w-4xl">
         <div className="container mx-auto text-center">
@@ -68,13 +66,12 @@ export default async function IndexPage() {
             <BlockTitle.Header elementType="h1">FAQ</BlockTitle.Header>
 
             <BlockTitle.Title elementType="h2">
-              Freequently Asked Questions
+              Frequently Asked Questions
             </BlockTitle.Title>
 
             <BlockTitle.Description>
-              Explore our comprehensive FAQ to find quick answers to common
-              inquiries. If you need further assistance, don&apos;t hesitate to
-              contact us for personalized help.
+              Get answers to common questions about TARS AI and our document
+              intelligence platform.
             </BlockTitle.Description>
 
             <BlockTitle.Background />

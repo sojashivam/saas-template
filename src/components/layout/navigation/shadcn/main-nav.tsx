@@ -52,8 +52,8 @@ export function MainNav({ items, children }: MainNavProps) {
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="items-center space-x-2 md:flex">
         <IconLogo />
-        <span className="hidden font-urban text-xl font-bold xl:inline-block">
-          {siteConfig.name}
+        <span className="hidden font-sans text-2xl font-extrabold tracking-tight xl:inline-block">
+          ARS
         </span>
       </Link>
       {items?.length ? (

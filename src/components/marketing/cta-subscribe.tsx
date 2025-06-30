@@ -79,7 +79,7 @@ export default function CtaSubscribe() {
           <BlockTitle.Header elementType="p">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="mx-auto mb-6 size-14 text-gray-300"
+              className="mx-auto mb-6 size-14 text-blue-300"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -88,18 +88,19 @@ export default function CtaSubscribe() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
-                d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"
+                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
               />
             </svg>
           </BlockTitle.Header>
 
           <BlockTitle.Title elementType="h2">
-            Subscribe to our newsletter
+            Ready to Transform Your Documents?
           </BlockTitle.Title>
 
           <BlockTitle.Description>
-            Stay up to date with the roadmap progress, announcements and
-            exclusive discounts feel free to sign up with your email.
+            Join leading institutions that are already using TARS AI to digitize
+            their archives and make information accessible. Get early access to
+            new features and exclusive insights.
           </BlockTitle.Description>
         </BlockTitle.Wrapper>
         <div className="mt-6">
@@ -116,17 +117,17 @@ export default function CtaSubscribe() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="Enter your email"
-              className="w-full rounded-md border p-3  outline-none focus:border-indigo-600"
+              placeholder="Enter your organization email"
+              className="w-full rounded-md border p-3 outline-none focus:border-blue-600"
               required
             />
             <Button
               disabled={loading}
               loading={loading}
               type="submit"
-              className="mt-3 w-full rounded-md bg-indigo-600 px-5 py-3 text-white shadow-md outline-none ring-indigo-600 ring-offset-2 duration-150 hover:bg-indigo-500 focus:shadow-none focus:ring-2 active:bg-indigo-700 sm:ml-3 sm:mt-0 sm:w-auto"
+              className="mt-3 w-full rounded-md bg-blue-600 px-5 py-3 text-white shadow-md outline-none ring-blue-600 ring-offset-2 duration-150 hover:bg-blue-500 focus:shadow-none focus:ring-2 active:bg-blue-700 sm:ml-3 sm:mt-0 sm:w-auto"
             >
-              Subscribe
+              Get Early Access
             </Button>
           </form>
           {returnValues.message && (
@@ -139,13 +140,9 @@ export default function CtaSubscribe() {
               {returnValues.message}
             </p>
           )}
-          <p className="mx-auto mt-3 text-center text-[15px] ">
-            No spam ever, we are care about the protection of your data. Read
-            our{' '}
-            <a
-              className="text-indigo-600 underline"
-              href="/legal/privacy-policy"
-            >
+          <p className="mx-auto mt-3 text-center text-[15px]">
+            No spam ever, we care about the protection of your data. Read our{' '}
+            <a className="text-blue-600 underline" href="/legal/privacy-policy">
               {' '}
               Privacy Policy{' '}
             </a>

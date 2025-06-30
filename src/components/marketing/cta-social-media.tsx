@@ -27,17 +27,18 @@ export default function CtaSocialMedia() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:flex lg:items-center lg:px-8 lg:py-24">
         <div className="mr-10 lg:w-0 lg:flex-1">
           <BlockTitle.Header elementType="h1">
-            Stay in the loop
+            Join the TARS AI Community
           </BlockTitle.Header>
           <p
             className="mt-4 text-3xl font-semibold tracking-tight text-slate-900 dark:text-slate-100 sm:text-5xl"
-            id="nx-is-fast"
+            id="tars-ai-growing"
           >
-            NST is growing fast, stay in the loop!
+            Transforming document intelligence together!
           </p>
           <p className="mt-4 text-lg text-slate-700 dark:text-slate-400">
-            Join the community and stay updated on new releases and features,
-            guides and recipes, events and fresh video tutorials.
+            Connect with us to stay updated on AI advancements, document
+            digitization success stories, and exclusive insights into the future
+            of knowledge management.
           </p>
         </div>
         <div className="mt-8 lg:ml-8 lg:mt-0">

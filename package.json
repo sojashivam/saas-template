@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Johan Guse",
-    "url": "https://twitter.com/johanguse"
+    "name": "Murphcode",
+    "url": "https://twitter.com/sojashivam"
   },
   "scripts": {
     "dev": "next dev",
@@ -33,6 +33,7 @@
     "@aws-sdk/s3-presigned-post": "^3.645.0",
     "@aws-sdk/s3-request-presigner": "^3.645.0",
     "@devnomic/marquee": "^1.0.2",
+    "@emotion/is-prop-valid": "^1.3.1",
     "@hookform/resolvers": "^3.4.2",
     "@prisma/client": "^5.22.0",
     "@radix-ui/react-accessible-icon": "^1.0.3",

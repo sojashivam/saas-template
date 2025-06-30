@@ -8,6 +8,7 @@ import { useSigninModal } from '@/hooks/use-signin-modal'
 
 import { Button } from '@/components/ui/button'
 
+import { ModeToggle } from '@/components/layout/mode-toggle'
 import { MainNav } from '@/components/layout/navigation/shadcn/main-nav'
 import { UserAccountNav } from '@/components/layout/navigation/user-account-nav'
 import AuthLink from '@/components/shared/auth-link'
@@ -47,6 +48,7 @@ export function NavBar({
 
         <div className="flex items-center space-x-3">
           {rightElements}
+          <ModeToggle />
 
           {!user && (
             <>

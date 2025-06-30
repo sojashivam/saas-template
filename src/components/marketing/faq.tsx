@@ -14,33 +14,39 @@ type FAQProps = {
 const pricingFaqData = [
   {
     id: 'item-1',
-    question: 'What is the cost of the free plan?',
+    question: 'What types of documents does TARS AI support?',
     answer:
-      "Our free plan is completely free, with no monthly or annual charges. It's a great way to get started and explore our basic features.",
+      'TARS AI supports multiple document formats including PDFs, images, and videos. Our AI can process and extract information from scanned documents, handwritten text, and multimedia content.',
   },
   {
     id: 'item-2',
-    question: 'How much does the Basic Monthly plan cost?',
+    question: 'How accurate are the AI-generated answers?',
     answer:
-      'The Basic Monthly plan is priced at $15 per month. It provides access to our core features and is billed on a monthly basis.',
+      'Our AI provides highly accurate answers with source citations. The system uses advanced NLP and semantic understanding to ensure responses are contextually relevant and properly attributed to source documents.',
   },
   {
     id: 'item-3',
-    question: 'What is the price of the Pro Monthly plan?',
+    question: 'Which Indian languages are supported?',
     answer:
-      'The Pro Monthly plan is available for $25 per month. It offers advanced features and is billed on a monthly basis for added flexibility.',
+      'TARS AI currently supports 12+ Indian languages including Hindi, Bengali, Telugu, Marathi, Tamil, Gujarati, Kannada, Malayalam, Punjabi, Odia, Assamese, and Urdu. We are continuously expanding language support.',
   },
   {
     id: 'item-4',
-    question: 'Do you offer any annual subscription plans?',
+    question: 'How secure is my document data?',
     answer:
-      'Yes, we offer annual subscription plans for even more savings. The Basic Annual plan is $144 per year, and the Pro Annual plan is $300 per year.',
+      'We implement enterprise-grade security measures including end-to-end encryption, secure cloud storage, and compliance with government data protection standards. For government clients, we also offer on-premise deployment options.',
   },
   {
     id: 'item-5',
-    question: 'Is there a trial period for the paid plans?',
+    question: 'What is the implementation timeline?',
     answer:
-      "We offer a 14-day free trial for both the Pro Monthly and Pro Annual plans. It's a great way to experience all the features before committing to a paid subscription.",
+      'Implementation typically takes 2-4 weeks depending on the scope. We provide comprehensive training, setup assistance, and ongoing support to ensure smooth adoption of the platform.',
+  },
+  {
+    id: 'item-6',
+    question: 'Do you offer custom AI model training?',
+    answer:
+      'Yes, for government and enterprise clients, we offer custom AI model training tailored to specific document types, terminology, and organizational requirements. This ensures optimal accuracy for your unique use cases.',
   },
 ]
 

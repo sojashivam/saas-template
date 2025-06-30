@@ -9,11 +9,11 @@ interface IconLogoProps {
 export default function IconLogo({ className }: IconLogoProps) {
   return (
     <Image
-      src="/next_saas_logo.png"
-      width={40}
-      height={40}
+      src="/images/tarsai-logo.png"
+      width={20}
+      height={28}
       className={className}
-      alt={`Logo for ${siteConfig.name}`}
+      alt={`TARS AI Logo`}
       priority
     />
   )

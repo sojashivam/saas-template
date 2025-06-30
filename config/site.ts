@@ -5,51 +5,51 @@ import { absoluteUrl } from '@/lib/utils'
 const defaultUrl = absoluteUrl('')
 
 export const siteConfig: SiteConfig = {
-  name: 'Next SaaS Template',
+  name: 'TARS AI',
   description:
-    'Empowering your SaaS startup journey with a meticulously crafted Next.js boilerplate and starter kit for fully-functional websites and apps.',
+    'TARS AI: Document Intelligence Platform - Turning Archives into Answers. Transform your documents into interactive knowledge bases with AI-powered chatbots.',
   shortDescription:
-    'Empowering your SaaS startup journey with a meticulously crafted Next.js boilerplate',
+    'Document Intelligence Platform - Turning Archives into Answers',
   url: defaultUrl,
-  mailSupport: 'nextsaastemplate@gmail.com',
-  address: '123 Code Street, Suite 404, Devtown, CA 98765',
+  mailSupport: 'contact@tarsai.com',
+  address: 'India',
   ogImage: `${defaultUrl}/og.jpg`,
   social: {
     links: {
       twitter: {
         label: 'Twitter',
         icon: 'twitter',
-        href: 'https://twitter.com/johanguse',
+        href: 'https://twitter.com/sojashivam',
       },
       github: {
         label: 'GitHub',
         icon: 'github',
-        href: 'https://twitter.com/johanguse',
+        href: 'https://github.com/tarsai',
       },
       linkedin: {
         label: 'LinkedIn',
         icon: 'linkedin',
-        href: 'https://twitter.com/johanguse',
+        href: 'https://linkedin.com/company/tarsai',
       },
       youtube: {
         label: 'YouTube',
         icon: 'youtube',
-        href: 'https://twitter.com/johanguse',
+        href: 'https://youtube.com/@tarsai',
       },
       instagram: {
         label: 'Instagram',
         icon: 'instagram',
-        href: 'https://twitter.com/johanguse',
+        href: 'https://instagram.com/tarsai',
       },
       facebook: {
         label: 'Facebook',
         icon: 'facebook',
-        href: 'https://twitter.com/johanguse',
+        href: 'https://facebook.com/tarsai',
       },
       tiktok: {
         label: 'Tiktok',
         icon: 'tiktok',
-        href: 'https://twitter.com/johanguse',
+        href: 'https://tiktok.com/@tarsai',
       },
     },
   },
